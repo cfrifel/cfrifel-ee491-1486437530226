@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: cfrifel-ee491
+  host: cfrifel-ee491
+  disk_quota: 1024M
+  services:
+  - cfrifel-ee491-cloudantNoSQLDB
+  - cfrifel-ee491-iotf-service
